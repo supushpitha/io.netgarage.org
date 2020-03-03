@@ -1,0 +1,7 @@
+cd /levels
+ls 
+./level01
+gdb level01
+set disassembly intel
+disass main
+p 0x10f
